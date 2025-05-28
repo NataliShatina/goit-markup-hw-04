@@ -164,7 +164,7 @@ img {
   margin: 0 auto;
   background-position: center center;
   background-size: cover;
-  max-width: 1158px;
+  max-width: 1440px;
 }
 .banner-h {
   font-weight: 700;
@@ -199,12 +199,7 @@ img {
 .banner-button:focus {
   background: #404bbf;
 }
-/* .button {
-  display: block;
-  text-align: center;
-  min-width: 169px;
-  height: 56px;
-} */
+
 
  /* SECTION A */
 .capabilities {
@@ -218,7 +213,19 @@ img {
 .capabilities-item {
   width: calc((100% - 72px) / 4);
 }
-
+.images-capabilities {
+  display: flex;
+  align-items: center;
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
+}
+.icon-cap {
+  margin: 0 auto;
+}
 /* SECTION B */
 .name {
   background: #f4f4fd;
